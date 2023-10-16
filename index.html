@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Yordy</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+                <!-- <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#inicio">SOBRE MI</a></li>
+                    <li><a href="#inicio">SKILLS</a></li>
+                    <li><a href="#inicio">CURRICULUM</a></li>
+                    <li><a href="#inicio">PORTAFOLIO</a></li>
+                </ul> -->
+            </div>
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="/img/Yo.jpg" alt="">
+            </div>
+            <h1>Yordy Benites Leiva</h1>
+            <h2>Ingeniero de Software </h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/yordy.bl/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/yordy-marlon-benites-leiva-35b82323a/" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://web.whatsapp.com/send?phone=51916998856" target="_blank"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy <span>Yordy Benites Leiva.</span> actualmente estudio ingeniería de software en la Universidad
+                Nacional Mayor de San Marcos
+                y me encuentro cursando el 8vo ciclo, mis principales intereses en la programación se enfocan en el
+                ciencia de datos y desarrollo web.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Nacimiento</strong>
+                            30-09-1998
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +51 916998856
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            jordy_benites@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.carganding.com
+                        </li>
+                        <li>
+                            <strong>Ubicación</strong>
+                            Los Olivos, Lima, Perú
+                        </li>
+                        <li>
+                            <strong>Estudios</strong>
+                            <span>Superior en progreso</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-brands fa-linux"></i>
+                            <span>LINUX</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>CINE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a download="CV-YordyBenitesLeiva" href="/CV- Yordy.pdf"> <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button></a>
+
+        </div>
+    </section>
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="contenido-seleccion">
+            <h2>SKILLS</h2>
+            <div class="fila">
+                <!-- Habilidades tecnicas -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>78%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Base de Datos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Habilidades profesionales -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Machine Learning</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Perseverancia</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/proyect_cafe.jpg" alt="ImgCafe">
+                    <div class="overlay">
+                        <a href="https://blogcafeyordybl.netlify.app/" target="_blank" class="link-port">
+                            <h3>Cafe Blog</h3>
+                            <p>Ver proyecto</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/proyect_store.jpg" alt="ImgTienda">
+                    <div class="overlay">
+                        <a href="https://landingstoreybl.netlify.app/" target="_blank" class="link-port">
+                            <h3>Tienda Ropa</h3>
+                            <p>Ver proyecto</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/img/proyect_LandingPage.jpg" alt="ImgLandingPAge">
+                    <div class="overlay">
+                        <a href="https://freelanceryorbl.netlify.app" class="link-port">
+                            <h3>Landing page inicial</h3>
+                            <p>Ver proyecto</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/img/proyect_MaghineLearning.jpg" target="_blank" alt="">
+                    <div class="overlay">
+                        <a href="#" class="link-port">
+                            <h3>Predicción de fuga de clientes</h3>
+                            <p>En progreso</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/img/proyect_MaghineLearning.jpg" target="_blank" alt="">
+                    <div class="overlay">
+                        <a href="#" class="link-port">
+                            <h3>Predicción de precios bienes raices</h3>
+                            <p>En progreso</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/img/proyect_MaghineLearning.jpg" target="_blank" alt="">
+                    <div class="overlay">
+                        <a href="#" class="link-port">
+                            <h3>Tratamiento de Outliers y nulos</h3>
+                            <p>En progreso</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
