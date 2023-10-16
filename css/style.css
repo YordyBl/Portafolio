@@ -263,7 +263,10 @@ a {
     text-decoration: none;
     /* Quita el subrayado en el hover */
 }
-
+.imgProyecto{
+    width: 300px;
+    height: 230px;
+}
 .skills {
     background-color: #252A2E;
     color: #fff;
